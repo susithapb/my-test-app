@@ -35,11 +35,11 @@ const Wizard = () => {
         ))}
       </div>
       <div className="step-content">
-        {steps[currentStep].component}
         <div className="navigation-buttons">
-          <Button onClick={handlePrevious} disabled={currentStep === 0} label="Previous"/>
-          <Button onClick={handleNext} disabled={currentStep === steps.length - 1} label="Next" />
+            <Button onClick={handlePrevious} disabled={currentStep === 0} label="Previous"/>
+            <Button onClick={handleNext} disabled={currentStep === steps.length - 1} label="Next" />
         </div>
+        {steps[currentStep].component}
       </div>
     </div>
   );

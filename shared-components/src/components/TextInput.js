@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 const TextInput = ({htmlId, name, label, type="text", required=false, onChange, value, error, ...props}) => {
     return(
-        <div className="col-md-4">
+        <div className="col-md-4 mb-3">
             <Label htmlFor={htmlId} label={label} required={required}/>
             <input 
                 id={htmlId} 

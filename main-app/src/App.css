@@ -15,7 +15,9 @@
 }
 
 .step.active {
-  background-color: #d3d3d3;
+  background-color: #4287f5;
+  font-weight: bold;
+  color: azure;
 }
 
 .step-content {
