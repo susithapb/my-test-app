@@ -1,0 +1,30 @@
+.wizard {
+  display: flex;
+}
+
+.step-nav {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.step {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.step.active {
+  background-color: #d3d3d3;
+}
+
+.step-content {
+  flex: 3;
+  padding: 10px;
+}
+
+.navigation-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
